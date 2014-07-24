@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93ACBCA19815450005D8198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBC919815450005D8198 /* Foundation.framework */; };
+		A93ACBCC19815450005D8198 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBCB19815450005D8198 /* CoreGraphics.framework */; };
+		A93ACBCE19815450005D8198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBCD19815450005D8198 /* UIKit.framework */; };
+		A93ACBD419815450005D8198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBD219815450005D8198 /* InfoPlist.strings */; };
+		A93ACBD619815450005D8198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBD519815450005D8198 /* main.m */; };
+		A93ACBDA19815450005D8198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBD919815450005D8198 /* AppDelegate.m */; };
+		A93ACBDD19815450005D8198 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBDB19815450005D8198 /* Main_iPhone.storyboard */; };
+		A93ACBE019815450005D8198 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBDE19815450005D8198 /* Main_iPad.storyboard */; };
+		A93ACBE319815450005D8198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBE219815450005D8198 /* ViewController.m */; };
+		A93ACBE519815450005D8198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBE419815450005D8198 /* Images.xcassets */; };
+		A93ACBEC19815450005D8198 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBEB19815450005D8198 /* XCTest.framework */; };
+		A93ACBED19815451005D8198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBC919815450005D8198 /* Foundation.framework */; };
+		A93ACBEE19815451005D8198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBCD19815450005D8198 /* UIKit.framework */; };
+		A93ACBF619815451005D8198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBF419815451005D8198 /* InfoPlist.strings */; };
+		A93ACBF819815451005D8198 /* Atom3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBF719815451005D8198 /* Atom3DTests.m */; };
+		A93ACC0919815487005D8198 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0319815487005D8198 /* EAGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A93ACC0A19815487005D8198 /* ES1Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0519815487005D8198 /* ES1Renderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A93ACC0B19815487005D8198 /* ES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0719815487005D8198 /* ES2Renderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93ACBEF19815451005D8198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93ACBBE19815450005D8198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93ACBC519815450005D8198;
+			remoteInfo = Atom3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93ACBC619815450005D8198 /* Atom3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atom3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93ACBC919815450005D8198 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A93ACBCB19815450005D8198 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A93ACBCD19815450005D8198 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A93ACBD119815450005D8198 /* Atom3D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Atom3D-Info.plist"; sourceTree = "<group>"; };
+		A93ACBD319815450005D8198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A93ACBD519815450005D8198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A93ACBD719815450005D8198 /* Atom3D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atom3D-Prefix.pch"; sourceTree = "<group>"; };
+		A93ACBD819815450005D8198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A93ACBD919815450005D8198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A93ACBDC19815450005D8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A93ACBDF19815450005D8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A93ACBE119815450005D8198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A93ACBE219815450005D8198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A93ACBE419815450005D8198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A93ACBEA19815450005D8198 /* Atom3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atom3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93ACBEB19815450005D8198 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A93ACBF319815451005D8198 /* Atom3DTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Atom3DTests-Info.plist"; sourceTree = "<group>"; };
+		A93ACBF519815451005D8198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A93ACBF719815451005D8198 /* Atom3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Atom3DTests.m; sourceTree = "<group>"; };
+		A93ACC0219815487005D8198 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		A93ACC0319815487005D8198 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		A93ACC0419815487005D8198 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
+		A93ACC0519815487005D8198 /* ES1Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ES1Renderer.m; sourceTree = "<group>"; };
+		A93ACC0619815487005D8198 /* ES2Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES2Renderer.h; sourceTree = "<group>"; };
+		A93ACC0719815487005D8198 /* ES2Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ES2Renderer.m; sourceTree = "<group>"; };
+		A93ACC0819815487005D8198 /* ESRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93ACBC319815450005D8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBCC19815450005D8198 /* CoreGraphics.framework in Frameworks */,
+				A93ACBCE19815450005D8198 /* UIKit.framework in Frameworks */,
+				A93ACBCA19815450005D8198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93ACBE719815450005D8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBEC19815450005D8198 /* XCTest.framework in Frameworks */,
+				A93ACBEE19815451005D8198 /* UIKit.framework in Frameworks */,
+				A93ACBED19815451005D8198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93ACBBD19815450005D8198 = {
+			isa = PBXGroup;
+			children = (
+				A93ACBCF19815450005D8198 /* Atom3D */,
+				A93ACBF119815451005D8198 /* Atom3DTests */,
+				A93ACBC819815450005D8198 /* Frameworks */,
+				A93ACBC719815450005D8198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93ACBC719815450005D8198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBC619815450005D8198 /* Atom3D.app */,
+				A93ACBEA19815450005D8198 /* Atom3DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93ACBC819815450005D8198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBC919815450005D8198 /* Foundation.framework */,
+				A93ACBCB19815450005D8198 /* CoreGraphics.framework */,
+				A93ACBCD19815450005D8198 /* UIKit.framework */,
+				A93ACBEB19815450005D8198 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A93ACBCF19815450005D8198 /* Atom3D */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBD819815450005D8198 /* AppDelegate.h */,
+				A93ACBD919815450005D8198 /* AppDelegate.m */,
+				A93ACBDB19815450005D8198 /* Main_iPhone.storyboard */,
+				A93ACBDE19815450005D8198 /* Main_iPad.storyboard */,
+				A93ACC0119815487005D8198 /* EAGLView */,
+				A93ACBE119815450005D8198 /* ViewController.h */,
+				A93ACBE219815450005D8198 /* ViewController.m */,
+				A93ACBE419815450005D8198 /* Images.xcassets */,
+				A93ACBD019815450005D8198 /* Supporting Files */,
+			);
+			path = Atom3D;
+			sourceTree = "<group>";
+		};
+		A93ACBD019815450005D8198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBD119815450005D8198 /* Atom3D-Info.plist */,
+				A93ACBD219815450005D8198 /* InfoPlist.strings */,
+				A93ACBD519815450005D8198 /* main.m */,
+				A93ACBD719815450005D8198 /* Atom3D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93ACBF119815451005D8198 /* Atom3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBF719815451005D8198 /* Atom3DTests.m */,
+				A93ACBF219815451005D8198 /* Supporting Files */,
+			);
+			path = Atom3DTests;
+			sourceTree = "<group>";
+		};
+		A93ACBF219815451005D8198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACBF319815451005D8198 /* Atom3DTests-Info.plist */,
+				A93ACBF419815451005D8198 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A93ACC0119815487005D8198 /* EAGLView */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACC0219815487005D8198 /* EAGLView.h */,
+				A93ACC0319815487005D8198 /* EAGLView.m */,
+				A93ACC0419815487005D8198 /* ES1Renderer.h */,
+				A93ACC0519815487005D8198 /* ES1Renderer.m */,
+				A93ACC0619815487005D8198 /* ES2Renderer.h */,
+				A93ACC0719815487005D8198 /* ES2Renderer.m */,
+				A93ACC0819815487005D8198 /* ESRenderer.h */,
+			);
+			path = EAGLView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93ACBC519815450005D8198 /* Atom3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93ACBFB19815451005D8198 /* Build configuration list for PBXNativeTarget "Atom3D" */;
+			buildPhases = (
+				A93ACBC219815450005D8198 /* Sources */,
+				A93ACBC319815450005D8198 /* Frameworks */,
+				A93ACBC419815450005D8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atom3D;
+			productName = Atom3D;
+			productReference = A93ACBC619815450005D8198 /* Atom3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93ACBE919815450005D8198 /* Atom3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93ACBFE19815451005D8198 /* Build configuration list for PBXNativeTarget "Atom3DTests" */;
+			buildPhases = (
+				A93ACBE619815450005D8198 /* Sources */,
+				A93ACBE719815450005D8198 /* Frameworks */,
+				A93ACBE819815450005D8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93ACBF019815451005D8198 /* PBXTargetDependency */,
+			);
+			name = Atom3DTests;
+			productName = Atom3DTests;
+			productReference = A93ACBEA19815450005D8198 /* Atom3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93ACBBE19815450005D8198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "harald bregu";
+				TargetAttributes = {
+					A93ACBE919815450005D8198 = {
+						TestTargetID = A93ACBC519815450005D8198;
+					};
+				};
+			};
+			buildConfigurationList = A93ACBC119815450005D8198 /* Build configuration list for PBXProject "Atom3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93ACBBD19815450005D8198;
+			productRefGroup = A93ACBC719815450005D8198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93ACBC519815450005D8198 /* Atom3D */,
+				A93ACBE919815450005D8198 /* Atom3DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93ACBC419815450005D8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBE019815450005D8198 /* Main_iPad.storyboard in Resources */,
+				A93ACBE519815450005D8198 /* Images.xcassets in Resources */,
+				A93ACBDD19815450005D8198 /* Main_iPhone.storyboard in Resources */,
+				A93ACBD419815450005D8198 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93ACBE819815450005D8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBF619815451005D8198 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93ACBC219815450005D8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBE319815450005D8198 /* ViewController.m in Sources */,
+				A93ACC0A19815487005D8198 /* ES1Renderer.m in Sources */,
+				A93ACC0919815487005D8198 /* EAGLView.m in Sources */,
+				A93ACC0B19815487005D8198 /* ES2Renderer.m in Sources */,
+				A93ACBDA19815450005D8198 /* AppDelegate.m in Sources */,
+				A93ACBD619815450005D8198 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93ACBE619815450005D8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ACBF819815451005D8198 /* Atom3DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A93ACBF019815451005D8198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93ACBC519815450005D8198 /* Atom3D */;
+			targetProxy = A93ACBEF19815451005D8198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93ACBD219815450005D8198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93ACBD319815450005D8198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A93ACBDB19815450005D8198 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93ACBDC19815450005D8198 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A93ACBDE19815450005D8198 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93ACBDF19815450005D8198 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A93ACBF419815451005D8198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93ACBF519815451005D8198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93ACBF919815451005D8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93ACBFA19815451005D8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93ACBFC19815451005D8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atom3D/Atom3D-Prefix.pch";
+				INFOPLIST_FILE = "Atom3D/Atom3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A93ACBFD19815451005D8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atom3D/Atom3D-Prefix.pch";
+				INFOPLIST_FILE = "Atom3D/Atom3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A93ACBFF19815451005D8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Atom3D.app/Atom3D";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atom3D/Atom3D-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Atom3DTests/Atom3DTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A93ACC0019815451005D8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Atom3D.app/Atom3D";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atom3D/Atom3D-Prefix.pch";
+				INFOPLIST_FILE = "Atom3DTests/Atom3DTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93ACBC119815450005D8198 /* Build configuration list for PBXProject "Atom3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93ACBF919815451005D8198 /* Debug */,
+				A93ACBFA19815451005D8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93ACBFB19815451005D8198 /* Build configuration list for PBXNativeTarget "Atom3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93ACBFC19815451005D8198 /* Debug */,
+				A93ACBFD19815451005D8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A93ACBFE19815451005D8198 /* Build configuration list for PBXNativeTarget "Atom3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93ACBFF19815451005D8198 /* Debug */,
+				A93ACC0019815451005D8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93ACBBE19815450005D8198 /* Project object */;
+}
