@@ -341,15 +341,13 @@
     [self presentRenderBuffer];
 }
 
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-
-
 #pragma mark - Touch events responder
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesBegan:touches withEvent:event];
+
+    //CGPoint currentPosition = [[touches anyObject] locationInView:self];
+
 }
 
 
@@ -357,15 +355,11 @@
 {
     [super touchesMoved:touches withEvent:event];
     
-
     CGPoint startPosition = [[touches anyObject] previousLocationInView:self];
     CGPoint currentPosition = [[touches anyObject] locationInView:self];
     
     
-
-    
     [self drawWithStartPos:startPosition andCurrentPosition:currentPosition];
-    
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
@@ -375,7 +369,7 @@
 }
 
 #pragma mark - Gesture Reconizer
--(void)loadGestures
+/*-(void)loadGestures
 {
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [self addGestureRecognizer:pan];
@@ -394,7 +388,7 @@
 -(void)pinch:(UIPinchGestureRecognizer *)pinchGesture
 {
     float scale = [pinchGesture scale];
-    modelTransform.scale = scale;
+    //modelTransform.scale = scale;
     //printf("scale :%f", modelTransform.scale);
 }
 
@@ -408,8 +402,8 @@
     else if (panGesture.state == UIGestureRecognizerStateChanged)
     {
         
-        CGPoint location = [panGesture locationInView:panGesture.view];
-        CGPoint translation = [panGesture translationInView:self];
+//        CGPoint location = [panGesture locationInView:panGesture.view];
+//        CGPoint translation = [panGesture translationInView:self];
         
         
         //float x = location.x * (360 / panGesture.view.frame.size.width);
@@ -435,7 +429,7 @@
 
 }
 
-/*
+
 -(void)rotate:(UIRotationGestureRecognizer *)rotateGesture
 {
     //    float rotation = [rotateGesture rotation];

@@ -15,7 +15,7 @@
 		A93ACBDA19815450005D8198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBD919815450005D8198 /* AppDelegate.m */; };
 		A93ACBDD19815450005D8198 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBDB19815450005D8198 /* Main_iPhone.storyboard */; };
 		A93ACBE019815450005D8198 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBDE19815450005D8198 /* Main_iPad.storyboard */; };
-		A93ACBE319815450005D8198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBE219815450005D8198 /* ViewController.m */; };
+		A93ACBE319815450005D8198 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A93ACBE219815450005D8198 /* ViewController.mm */; };
 		A93ACBE519815450005D8198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBE419815450005D8198 /* Images.xcassets */; };
 		A93ACBEC19815450005D8198 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBEB19815450005D8198 /* XCTest.framework */; };
 		A93ACBED19815451005D8198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93ACBC919815450005D8198 /* Foundation.framework */; };
@@ -25,6 +25,22 @@
 		A93ACC0919815487005D8198 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0319815487005D8198 /* EAGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A93ACC0A19815487005D8198 /* ES1Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0519815487005D8198 /* ES1Renderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A93ACC0B19815487005D8198 /* ES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC0719815487005D8198 /* ES2Renderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A93ACC3A19815C01005D8198 /* base.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2819815C01005D8198 /* base.fsh */; };
+		A93ACC3B19815C01005D8198 /* base.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2919815C01005D8198 /* base.vsh */; };
+		A93ACC3C19815C01005D8198 /* cubeshader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2A19815C01005D8198 /* cubeshader.fsh */; };
+		A93ACC3D19815C01005D8198 /* cubeshader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2B19815C01005D8198 /* cubeshader.vsh */; };
+		A93ACC3E19815C01005D8198 /* PlainDisplay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2C19815C01005D8198 /* PlainDisplay.fsh */; };
+		A93ACC3F19815C01005D8198 /* PlainDisplay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC2D19815C01005D8198 /* PlainDisplay.vsh */; };
+		A93ACC4019815C01005D8198 /* Shader_Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC2F19815C01005D8198 /* Shader_Wrapper.cpp */; };
+		A93ACC4119815C01005D8198 /* simpleTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC3119815C01005D8198 /* simpleTexture.fsh */; };
+		A93ACC4219815C01005D8198 /* simpleTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC3219815C01005D8198 /* simpleTexture.vsh */; };
+		A93ACC4319815C01005D8198 /* Toon.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC3319815C01005D8198 /* Toon.fsh */; };
+		A93ACC4419815C01005D8198 /* Toon.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A93ACC3419815C01005D8198 /* Toon.vsh */; };
+		A93ACC5019815C53005D8198 /* FileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC4819815C53005D8198 /* FileParser.cpp */; };
+		A93ACC5119815C53005D8198 /* FilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC4A19815C53005D8198 /* FilePath.cpp */; };
+		A93ACC5219815C53005D8198 /* FileWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A93ACC4D19815C53005D8198 /* FileWrapper.mm */; };
+		A9684CF11981615D00D936C6 /* newsh.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CF01981615D00D936C6 /* newsh.fsh */; };
+		A9684CF31981617200D936C6 /* newsh.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CF21981617200D936C6 /* newsh.vsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +67,7 @@
 		A93ACBDC19815450005D8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A93ACBDF19815450005D8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A93ACBE119815450005D8198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A93ACBE219815450005D8198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A93ACBE219815450005D8198 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		A93ACBE419815450005D8198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A93ACBEA19815450005D8198 /* Atom3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atom3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93ACBEB19815450005D8198 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +81,34 @@
 		A93ACC0619815487005D8198 /* ES2Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES2Renderer.h; sourceTree = "<group>"; };
 		A93ACC0719815487005D8198 /* ES2Renderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ES2Renderer.m; sourceTree = "<group>"; };
 		A93ACC0819815487005D8198 /* ESRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderer.h; sourceTree = "<group>"; };
+		A93ACC1819815ADE005D8198 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		A93ACC1919815ADE005D8198 /* ShaderProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderProgram.hpp; sourceTree = "<group>"; };
+		A93ACC2819815C01005D8198 /* base.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.fsh; sourceTree = "<group>"; };
+		A93ACC2919815C01005D8198 /* base.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.vsh; sourceTree = "<group>"; };
+		A93ACC2A19815C01005D8198 /* cubeshader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.fsh; sourceTree = "<group>"; };
+		A93ACC2B19815C01005D8198 /* cubeshader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.vsh; sourceTree = "<group>"; };
+		A93ACC2C19815C01005D8198 /* PlainDisplay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.fsh; sourceTree = "<group>"; };
+		A93ACC2D19815C01005D8198 /* PlainDisplay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.vsh; sourceTree = "<group>"; };
+		A93ACC2E19815C01005D8198 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		A93ACC2F19815C01005D8198 /* Shader_Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader_Wrapper.cpp; sourceTree = "<group>"; };
+		A93ACC3019815C01005D8198 /* Shader_Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader_Wrapper.h; sourceTree = "<group>"; };
+		A93ACC3119815C01005D8198 /* simpleTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.fsh; sourceTree = "<group>"; };
+		A93ACC3219815C01005D8198 /* simpleTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.vsh; sourceTree = "<group>"; };
+		A93ACC3319815C01005D8198 /* Toon.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.fsh; sourceTree = "<group>"; };
+		A93ACC3419815C01005D8198 /* Toon.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.vsh; sourceTree = "<group>"; };
+		A93ACC3619815C01005D8198 /* Texture_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture_Manager.h; sourceTree = "<group>"; };
+		A93ACC4619815C53005D8198 /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		A93ACC4719815C53005D8198 /* aTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aTypes.h; sourceTree = "<group>"; };
+		A93ACC4819815C53005D8198 /* FileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileParser.cpp; sourceTree = "<group>"; };
+		A93ACC4919815C53005D8198 /* FileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileParser.h; sourceTree = "<group>"; };
+		A93ACC4A19815C53005D8198 /* FilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FilePath.cpp; sourceTree = "<group>"; };
+		A93ACC4B19815C53005D8198 /* FilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePath.h; sourceTree = "<group>"; };
+		A93ACC4C19815C53005D8198 /* FileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWrapper.h; sourceTree = "<group>"; };
+		A93ACC4D19815C53005D8198 /* FileWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileWrapper.mm; sourceTree = "<group>"; };
+		A93ACC4E19815C53005D8198 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		A93ACC4F19815C53005D8198 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A9684CF01981615D00D936C6 /* newsh.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = newsh.fsh; sourceTree = "<group>"; };
+		A9684CF21981617200D936C6 /* newsh.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = newsh.vsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +172,12 @@
 				A93ACBD919815450005D8198 /* AppDelegate.m */,
 				A93ACBDB19815450005D8198 /* Main_iPhone.storyboard */,
 				A93ACBDE19815450005D8198 /* Main_iPad.storyboard */,
+				A93ACC1719815ADE005D8198 /* ShaderHelperClasses */,
 				A93ACC0119815487005D8198 /* EAGLView */,
 				A93ACBE119815450005D8198 /* ViewController.h */,
-				A93ACBE219815450005D8198 /* ViewController.m */,
+				A93ACBE219815450005D8198 /* ViewController.mm */,
+				A93ACC4519815C53005D8198 /* utils */,
+				A93ACC1A19815C01005D8198 /* AGLEngine */,
 				A93ACBE419815450005D8198 /* Images.xcassets */,
 				A93ACBD019815450005D8198 /* Supporting Files */,
 			);
@@ -178,6 +225,73 @@
 				A93ACC0819815487005D8198 /* ESRenderer.h */,
 			);
 			path = EAGLView;
+			sourceTree = "<group>";
+		};
+		A93ACC1719815ADE005D8198 /* ShaderHelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACC1819815ADE005D8198 /* Shader.hpp */,
+				A93ACC1919815ADE005D8198 /* ShaderProgram.hpp */,
+			);
+			path = ShaderHelperClasses;
+			sourceTree = "<group>";
+		};
+		A93ACC1A19815C01005D8198 /* AGLEngine */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACC2719815C01005D8198 /* Shader */,
+				A93ACC3519815C01005D8198 /* Texture */,
+			);
+			name = AGLEngine;
+			path = ../../../AGLEngine;
+			sourceTree = "<group>";
+		};
+		A93ACC2719815C01005D8198 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				A9684CF01981615D00D936C6 /* newsh.fsh */,
+				A9684CF21981617200D936C6 /* newsh.vsh */,
+				A93ACC2819815C01005D8198 /* base.fsh */,
+				A93ACC2919815C01005D8198 /* base.vsh */,
+				A93ACC2A19815C01005D8198 /* cubeshader.fsh */,
+				A93ACC2B19815C01005D8198 /* cubeshader.vsh */,
+				A93ACC2C19815C01005D8198 /* PlainDisplay.fsh */,
+				A93ACC2D19815C01005D8198 /* PlainDisplay.vsh */,
+				A93ACC2E19815C01005D8198 /* Shader.h */,
+				A93ACC2F19815C01005D8198 /* Shader_Wrapper.cpp */,
+				A93ACC3019815C01005D8198 /* Shader_Wrapper.h */,
+				A93ACC3119815C01005D8198 /* simpleTexture.fsh */,
+				A93ACC3219815C01005D8198 /* simpleTexture.vsh */,
+				A93ACC3319815C01005D8198 /* Toon.fsh */,
+				A93ACC3419815C01005D8198 /* Toon.vsh */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		A93ACC3519815C01005D8198 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACC3619815C01005D8198 /* Texture_Manager.h */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		A93ACC4519815C53005D8198 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A93ACC4619815C53005D8198 /* Atom.h */,
+				A93ACC4719815C53005D8198 /* aTypes.h */,
+				A93ACC4819815C53005D8198 /* FileParser.cpp */,
+				A93ACC4919815C53005D8198 /* FileParser.h */,
+				A93ACC4A19815C53005D8198 /* FilePath.cpp */,
+				A93ACC4B19815C53005D8198 /* FilePath.h */,
+				A93ACC4C19815C53005D8198 /* FileWrapper.h */,
+				A93ACC4D19815C53005D8198 /* FileWrapper.mm */,
+				A93ACC4E19815C53005D8198 /* Helpers.h */,
+				A93ACC4F19815C53005D8198 /* Utils.h */,
+			);
+			name = utils;
+			path = ../../../utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,10 +370,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9684CF11981615D00D936C6 /* newsh.fsh in Resources */,
 				A93ACBE019815450005D8198 /* Main_iPad.storyboard in Resources */,
 				A93ACBE519815450005D8198 /* Images.xcassets in Resources */,
+				A93ACC3D19815C01005D8198 /* cubeshader.vsh in Resources */,
+				A93ACC4219815C01005D8198 /* simpleTexture.vsh in Resources */,
+				A93ACC4119815C01005D8198 /* simpleTexture.fsh in Resources */,
+				A93ACC3C19815C01005D8198 /* cubeshader.fsh in Resources */,
+				A93ACC4419815C01005D8198 /* Toon.vsh in Resources */,
 				A93ACBDD19815450005D8198 /* Main_iPhone.storyboard in Resources */,
+				A93ACC3B19815C01005D8198 /* base.vsh in Resources */,
+				A93ACC3E19815C01005D8198 /* PlainDisplay.fsh in Resources */,
+				A93ACC3A19815C01005D8198 /* base.fsh in Resources */,
 				A93ACBD419815450005D8198 /* InfoPlist.strings in Resources */,
+				A9684CF31981617200D936C6 /* newsh.vsh in Resources */,
+				A93ACC3F19815C01005D8198 /* PlainDisplay.vsh in Resources */,
+				A93ACC4319815C01005D8198 /* Toon.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93ACBE319815450005D8198 /* ViewController.m in Sources */,
+				A93ACBE319815450005D8198 /* ViewController.mm in Sources */,
 				A93ACC0A19815487005D8198 /* ES1Renderer.m in Sources */,
+				A93ACC5119815C53005D8198 /* FilePath.cpp in Sources */,
 				A93ACC0919815487005D8198 /* EAGLView.m in Sources */,
 				A93ACC0B19815487005D8198 /* ES2Renderer.m in Sources */,
+				A93ACC5219815C53005D8198 /* FileWrapper.mm in Sources */,
 				A93ACBDA19815450005D8198 /* AppDelegate.m in Sources */,
+				A93ACC4019815C01005D8198 /* Shader_Wrapper.cpp in Sources */,
+				A93ACC5019815C53005D8198 /* FileParser.cpp in Sources */,
 				A93ACBD619815450005D8198 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +628,7 @@
 				A93ACBFD19815451005D8198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A93ACBFE19815451005D8198 /* Build configuration list for PBXNativeTarget "Atom3DTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +637,7 @@
 				A93ACC0019815451005D8198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93ACBB9198152D2005D8198 /* spider.obj in Resources */ = {isa = PBXBuildFile; fileRef = A93ACBB8198152D2005D8198 /* spider.obj */; };
 		A952ED901911A12500E7DF80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A952ED8F1911A12500E7DF80 /* QuartzCore.framework */; };
 		A952ED921911A12D00E7DF80 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A952ED911911A12D00E7DF80 /* CoreFoundation.framework */; };
+		A9684D071981775D00D936C6 /* base.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CF81981775D00D936C6 /* base.fsh */; };
+		A9684D081981775D00D936C6 /* base.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CF91981775D00D936C6 /* base.vsh */; };
+		A9684D091981775D00D936C6 /* cubeshader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFA1981775D00D936C6 /* cubeshader.fsh */; };
+		A9684D0A1981775D00D936C6 /* cubeshader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFB1981775D00D936C6 /* cubeshader.vsh */; };
+		A9684D0B1981775D00D936C6 /* newsh.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFC1981775D00D936C6 /* newsh.fsh */; };
+		A9684D0C1981775D00D936C6 /* newsh.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFD1981775D00D936C6 /* newsh.vsh */; };
+		A9684D0D1981775D00D936C6 /* PlainDisplay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFE1981775D00D936C6 /* PlainDisplay.fsh */; };
+		A9684D0E1981775D00D936C6 /* PlainDisplay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684CFF1981775D00D936C6 /* PlainDisplay.vsh */; };
+		A9684D0F1981775D00D936C6 /* simpleTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684D031981775D00D936C6 /* simpleTexture.fsh */; };
+		A9684D101981775D00D936C6 /* simpleTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684D041981775D00D936C6 /* simpleTexture.vsh */; };
+		A9684D111981775D00D936C6 /* Toon.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684D051981775D00D936C6 /* Toon.fsh */; };
+		A9684D121981775D00D936C6 /* Toon.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A9684D061981775D00D936C6 /* Toon.vsh */; };
 		A987A56619180602004260D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A987A56519180602004260D1 /* Default-568h@2x.png */; };
 		A99FB36B197ACEA10012A3DB /* AGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99FB368197ACEA10012A3DB /* AGLViewController.mm */; };
 		A99FB36C197ACEA10012A3DB /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99FB36A197ACEA10012A3DB /* GLView.mm */; };
 		A99FB4CB197ACEB30012A3DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A99FB371197ACEB20012A3DB /* README.md */; };
 		A99FB4CC197ACEB30012A3DB /* tiny_obj_loader.cc in Sources */ = {isa = PBXBuildFile; fileRef = A99FB372197ACEB20012A3DB /* tiny_obj_loader.cc */; };
 		A99FB4CD197ACEB30012A3DB /* Test01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99FB378197ACEB20012A3DB /* Test01.cpp */; };
-		A99FB4CE197ACEB30012A3DB /* base.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB37B197ACEB20012A3DB /* base.fsh */; };
-		A99FB4CF197ACEB30012A3DB /* base.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB37C197ACEB20012A3DB /* base.vsh */; };
-		A99FB4D0197ACEB30012A3DB /* cubeshader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB37D197ACEB20012A3DB /* cubeshader.fsh */; };
-		A99FB4D1197ACEB30012A3DB /* cubeshader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB37E197ACEB20012A3DB /* cubeshader.vsh */; };
-		A99FB4D2197ACEB30012A3DB /* PlainDisplay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB37F197ACEB20012A3DB /* PlainDisplay.fsh */; };
-		A99FB4D3197ACEB30012A3DB /* PlainDisplay.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB380197ACEB20012A3DB /* PlainDisplay.vsh */; };
-		A99FB4D4197ACEB30012A3DB /* Shader_Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99FB382197ACEB20012A3DB /* Shader_Wrapper.cpp */; };
-		A99FB4D5197ACEB30012A3DB /* simpleTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB384197ACEB20012A3DB /* simpleTexture.fsh */; };
-		A99FB4D6197ACEB30012A3DB /* simpleTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB385197ACEB20012A3DB /* simpleTexture.vsh */; };
-		A99FB4D7197ACEB30012A3DB /* Toon.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB386197ACEB20012A3DB /* Toon.fsh */; };
-		A99FB4D8197ACEB30012A3DB /* Toon.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A99FB387197ACEB20012A3DB /* Toon.vsh */; };
 		A99FB4EF197ACEB30012A3DB /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99FB3B1197ACEB20012A3DB /* dummy.cpp */; };
 		A99FB4F0197ACEB30012A3DB /* func_common.inl in Resources */ = {isa = PBXBuildFile; fileRef = A99FB3B3197ACEB20012A3DB /* func_common.inl */; };
 		A99FB4F1197ACEB30012A3DB /* func_exponential.inl in Resources */ = {isa = PBXBuildFile; fileRef = A99FB3B5197ACEB20012A3DB /* func_exponential.inl */; };
@@ -138,8 +140,6 @@
 		A99FB55C197ACEB30012A3DB /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = A99FB4B3197ACEB30012A3DB /* stb_image.c */; };
 		A99FB55D197ACEB30012A3DB /* stb_image_write.c in Sources */ = {isa = PBXBuildFile; fileRef = A99FB4B5197ACEB30012A3DB /* stb_image_write.c */; };
 		A99FB55E197ACEB30012A3DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A99FB4BF197ACEB30012A3DB /* README.md */; };
-		A99FB55F197ACEB30012A3DB /* FileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99FB4C3197ACEB30012A3DB /* FileParser.cpp */; };
-		A99FB560197ACEB30012A3DB /* FilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99FB4C5197ACEB30012A3DB /* FilePath.cpp */; };
 		A99FB561197ACEB30012A3DB /* FileWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99FB4C8197ACEB30012A3DB /* FileWrapper.mm */; };
 		A9AFCEBD197D1FDA00E2115F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A9AFCEA3197D1FDA00E2115F /* back.png */; };
 		A9AFCEBE197D1FDA00E2115F /* cilinder.png in Resources */ = {isa = PBXBuildFile; fileRef = A9AFCEA4197D1FDA00E2115F /* cilinder.png */; };
@@ -186,8 +186,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A93ACBB8198152D2005D8198 /* spider.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spider.obj; sourceTree = "<group>"; };
+		A93ACBBA198152DE005D8198 /* BROTHEREYE_NORM.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = BROTHEREYE_NORM.tga; sourceTree = "<group>"; };
+		A93ACBBB198152DE005D8198 /* BROTHEREYE_FX.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = BROTHEREYE_FX.tga; sourceTree = "<group>"; };
+		A93ACBBC198152DE005D8198 /* BROTHEREYE_DIFF.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = BROTHEREYE_DIFF.tga; sourceTree = "<group>"; };
 		A952ED8F1911A12500E7DF80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A952ED911911A12D00E7DF80 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9684CF81981775D00D936C6 /* base.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.fsh; sourceTree = "<group>"; };
+		A9684CF91981775D00D936C6 /* base.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.vsh; sourceTree = "<group>"; };
+		A9684CFA1981775D00D936C6 /* cubeshader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.fsh; sourceTree = "<group>"; };
+		A9684CFB1981775D00D936C6 /* cubeshader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.vsh; sourceTree = "<group>"; };
+		A9684CFC1981775D00D936C6 /* newsh.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = newsh.fsh; sourceTree = "<group>"; };
+		A9684CFD1981775D00D936C6 /* newsh.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = newsh.vsh; sourceTree = "<group>"; };
+		A9684CFE1981775D00D936C6 /* PlainDisplay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.fsh; sourceTree = "<group>"; };
+		A9684CFF1981775D00D936C6 /* PlainDisplay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.vsh; sourceTree = "<group>"; };
+		A9684D011981775D00D936C6 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		A9684D021981775D00D936C6 /* ShaderProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShaderProgram.hpp; sourceTree = "<group>"; };
+		A9684D031981775D00D936C6 /* simpleTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.fsh; sourceTree = "<group>"; };
+		A9684D041981775D00D936C6 /* simpleTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.vsh; sourceTree = "<group>"; };
+		A9684D051981775D00D936C6 /* Toon.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.fsh; sourceTree = "<group>"; };
+		A9684D061981775D00D936C6 /* Toon.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.vsh; sourceTree = "<group>"; };
 		A987A56519180602004260D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		A99FB367197ACEA10012A3DB /* AGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLViewController.h; sourceTree = "<group>"; };
 		A99FB368197ACEA10012A3DB /* AGLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AGLViewController.mm; sourceTree = "<group>"; };
@@ -201,19 +219,6 @@
 		A99FB376197ACEB20012A3DB /* ES2Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES2Render.h; sourceTree = "<group>"; };
 		A99FB378197ACEB20012A3DB /* Test01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test01.cpp; sourceTree = "<group>"; };
 		A99FB379197ACEB20012A3DB /* Test01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test01.h; sourceTree = "<group>"; };
-		A99FB37B197ACEB20012A3DB /* base.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.fsh; sourceTree = "<group>"; };
-		A99FB37C197ACEB20012A3DB /* base.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = base.vsh; sourceTree = "<group>"; };
-		A99FB37D197ACEB20012A3DB /* cubeshader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.fsh; sourceTree = "<group>"; };
-		A99FB37E197ACEB20012A3DB /* cubeshader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = cubeshader.vsh; sourceTree = "<group>"; };
-		A99FB37F197ACEB20012A3DB /* PlainDisplay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.fsh; sourceTree = "<group>"; };
-		A99FB380197ACEB20012A3DB /* PlainDisplay.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PlainDisplay.vsh; sourceTree = "<group>"; };
-		A99FB381197ACEB20012A3DB /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
-		A99FB382197ACEB20012A3DB /* Shader_Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader_Wrapper.cpp; sourceTree = "<group>"; };
-		A99FB383197ACEB20012A3DB /* Shader_Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader_Wrapper.h; sourceTree = "<group>"; };
-		A99FB384197ACEB20012A3DB /* simpleTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.fsh; sourceTree = "<group>"; };
-		A99FB385197ACEB20012A3DB /* simpleTexture.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = simpleTexture.vsh; sourceTree = "<group>"; };
-		A99FB386197ACEB20012A3DB /* Toon.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.fsh; sourceTree = "<group>"; };
-		A99FB387197ACEB20012A3DB /* Toon.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Toon.vsh; sourceTree = "<group>"; };
 		A99FB389197ACEB20012A3DB /* Texture_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture_Manager.h; sourceTree = "<group>"; };
 		A99FB3A8197ACEB20012A3DB /* common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		A99FB3AA197ACEB20012A3DB /* _features.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = _features.hpp; sourceTree = "<group>"; };
@@ -489,15 +494,8 @@
 		A99FB4BE197ACEB30012A3DB /* stbi_pvr_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pvr_c.h; sourceTree = "<group>"; };
 		A99FB4BF197ACEB30012A3DB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		A99FB4C1197ACEB30012A3DB /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
-		A99FB4C2197ACEB30012A3DB /* aTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aTypes.h; sourceTree = "<group>"; };
-		A99FB4C3197ACEB30012A3DB /* FileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileParser.cpp; sourceTree = "<group>"; };
-		A99FB4C4197ACEB30012A3DB /* FileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileParser.h; sourceTree = "<group>"; };
-		A99FB4C5197ACEB30012A3DB /* FilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FilePath.cpp; sourceTree = "<group>"; };
-		A99FB4C6197ACEB30012A3DB /* FilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePath.h; sourceTree = "<group>"; };
 		A99FB4C7197ACEB30012A3DB /* FileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWrapper.h; sourceTree = "<group>"; };
 		A99FB4C8197ACEB30012A3DB /* FileWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileWrapper.mm; sourceTree = "<group>"; };
-		A99FB4C9197ACEB30012A3DB /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
-		A99FB4CA197ACEB30012A3DB /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		A9AFCEA3197D1FDA00E2115F /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		A9AFCEA4197D1FDA00E2115F /* cilinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cilinder.png; sourceTree = "<group>"; };
 		A9AFCEA5197D1FDA00E2115F /* cone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cone.png; sourceTree = "<group>"; };
@@ -563,6 +561,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9684CF71981775D00D936C6 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				A9684D001981775D00D936C6 /* ShaderHelper */,
+				A9684CF81981775D00D936C6 /* base.fsh */,
+				A9684CF91981775D00D936C6 /* base.vsh */,
+				A9684CFA1981775D00D936C6 /* cubeshader.fsh */,
+				A9684CFB1981775D00D936C6 /* cubeshader.vsh */,
+				A9684CFC1981775D00D936C6 /* newsh.fsh */,
+				A9684CFD1981775D00D936C6 /* newsh.vsh */,
+				A9684CFE1981775D00D936C6 /* PlainDisplay.fsh */,
+				A9684CFF1981775D00D936C6 /* PlainDisplay.vsh */,
+				A9684D031981775D00D936C6 /* simpleTexture.fsh */,
+				A9684D041981775D00D936C6 /* simpleTexture.vsh */,
+				A9684D051981775D00D936C6 /* Toon.fsh */,
+				A9684D061981775D00D936C6 /* Toon.vsh */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		A9684D001981775D00D936C6 /* ShaderHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A9684D011981775D00D936C6 /* Shader.hpp */,
+				A9684D021981775D00D936C6 /* ShaderProgram.hpp */,
+			);
+			path = ShaderHelper;
+			sourceTree = "<group>";
+		};
 		A99FB366197ACEA10012A3DB /* EAGLViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,8 +605,8 @@
 		A99FB36D197ACEB20012A3DB /* AGLEngine */ = {
 			isa = PBXGroup;
 			children = (
+				A9684CF71981775D00D936C6 /* Shader */,
 				A99FB36E197ACEB20012A3DB /* Model */,
-				A99FB37A197ACEB20012A3DB /* Shader */,
 				A99FB388197ACEB20012A3DB /* Texture */,
 				A99FB374197ACEB20012A3DB /* Render */,
 			);
@@ -623,26 +650,6 @@
 				A99FB379197ACEB20012A3DB /* Test01.h */,
 			);
 			path = Test;
-			sourceTree = "<group>";
-		};
-		A99FB37A197ACEB20012A3DB /* Shader */ = {
-			isa = PBXGroup;
-			children = (
-				A99FB37B197ACEB20012A3DB /* base.fsh */,
-				A99FB37C197ACEB20012A3DB /* base.vsh */,
-				A99FB37D197ACEB20012A3DB /* cubeshader.fsh */,
-				A99FB37E197ACEB20012A3DB /* cubeshader.vsh */,
-				A99FB37F197ACEB20012A3DB /* PlainDisplay.fsh */,
-				A99FB380197ACEB20012A3DB /* PlainDisplay.vsh */,
-				A99FB381197ACEB20012A3DB /* Shader.h */,
-				A99FB382197ACEB20012A3DB /* Shader_Wrapper.cpp */,
-				A99FB383197ACEB20012A3DB /* Shader_Wrapper.h */,
-				A99FB384197ACEB20012A3DB /* simpleTexture.fsh */,
-				A99FB385197ACEB20012A3DB /* simpleTexture.vsh */,
-				A99FB386197ACEB20012A3DB /* Toon.fsh */,
-				A99FB387197ACEB20012A3DB /* Toon.vsh */,
-			);
-			path = Shader;
 			sourceTree = "<group>";
 		};
 		A99FB388197ACEB20012A3DB /* Texture */ = {
@@ -1018,15 +1025,8 @@
 			isa = PBXGroup;
 			children = (
 				A99FB4C1197ACEB30012A3DB /* Atom.h */,
-				A99FB4C2197ACEB30012A3DB /* aTypes.h */,
-				A99FB4C3197ACEB30012A3DB /* FileParser.cpp */,
-				A99FB4C4197ACEB30012A3DB /* FileParser.h */,
-				A99FB4C5197ACEB30012A3DB /* FilePath.cpp */,
-				A99FB4C6197ACEB30012A3DB /* FilePath.h */,
 				A99FB4C7197ACEB30012A3DB /* FileWrapper.h */,
 				A99FB4C8197ACEB30012A3DB /* FileWrapper.mm */,
-				A99FB4C9197ACEB30012A3DB /* Helpers.h */,
-				A99FB4CA197ACEB30012A3DB /* Utils.h */,
 			);
 			name = utils;
 			path = ../../../utils;
@@ -1063,6 +1063,7 @@
 		A9AFCEAD197D1FDA00E2115F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A93ACBB8198152D2005D8198 /* spider.obj */,
 				A9B3DEA5197EBDB5002B7958 /* ship.obj */,
 				A9B3DEA6197EBDB5002B7958 /* tiranosaurus.obj */,
 				A9B3DEA1197EBB1C002B7958 /* house.obj */,
@@ -1083,6 +1084,9 @@
 		A9AFCEB5197D1FDA00E2115F /* Textures */ = {
 			isa = PBXGroup;
 			children = (
+				A93ACBBA198152DE005D8198 /* BROTHEREYE_NORM.tga */,
+				A93ACBBB198152DE005D8198 /* BROTHEREYE_FX.tga */,
+				A93ACBBC198152DE005D8198 /* BROTHEREYE_DIFF.tga */,
 				A9B3DEA3197EBB2A002B7958 /* house_diffuse.png */,
 				A9B3DE99197EB944002B7958 /* bricks.png */,
 				A9B3DE9A197EB944002B7958 /* drkwood2.png */,
@@ -1212,18 +1216,19 @@
 				A99FB52F197ACEB30012A3DB /* handed_coordinate_space.inl in Resources */,
 				A99FB508197ACEB30012A3DB /* type_mat3x2.inl in Resources */,
 				A9AFCEDA197DC35900E2115F /* icosphere.obj in Resources */,
-				A99FB4D0197ACEB30012A3DB /* cubeshader.fsh in Resources */,
 				A99FB545197ACEB30012A3DB /* projection.inl in Resources */,
 				A99FB534197ACEB30012A3DB /* io.inl in Resources */,
 				A9B3DE9D197EB944002B7958 /* drkwood2.png in Resources */,
 				A99FB52B197ACEB30012A3DB /* fast_exponential.inl in Resources */,
 				A99FB54E197ACEB30012A3DB /* spline.inl in Resources */,
+				A9684D111981775D00D936C6 /* Toon.fsh in Resources */,
 				A99FB51F197ACEB30012A3DB /* ulp.inl in Resources */,
 				A99FB51C197ACEB30012A3DB /* reciprocal.inl in Resources */,
 				A99FB526197ACEB30012A3DB /* component_wise.inl in Resources */,
 				A99FB51E197ACEB30012A3DB /* type_ptr.inl in Resources */,
 				A99FB503197ACEB30012A3DB /* type_half.inl in Resources */,
 				A99FB51B197ACEB30012A3DB /* random.inl in Resources */,
+				A9684D091981775D00D936C6 /* cubeshader.fsh in Resources */,
 				A9B3DE9E197EB944002B7958 /* heightmap.png in Resources */,
 				A9AFCEC1197D1FDA00E2115F /* forward.png in Resources */,
 				A99FB554197ACEB30012A3DB /* vec1.inl in Resources */,
@@ -1243,21 +1248,20 @@
 				A99FB553197ACEB30012A3DB /* unsigned_int.inl in Resources */,
 				A99FB4F5197ACEB30012A3DB /* func_noise.inl in Resources */,
 				A99FB54B197ACEB30012A3DB /* simd_mat4.inl in Resources */,
-				A99FB4D3197ACEB30012A3DB /* PlainDisplay.vsh in Resources */,
 				A9AFCEC0197D1FDA00E2115F /* cube.png in Resources */,
 				A9B3DE97197EB892002B7958 /* jeep_rood.png in Resources */,
 				A99FB4CB197ACEB30012A3DB /* README.md in Resources */,
 				A99FB527197ACEB30012A3DB /* dual_quaternion.inl in Resources */,
-				A99FB4CE197ACEB30012A3DB /* base.fsh in Resources */,
 				A99FB547197ACEB30012A3DB /* raw_data.inl in Resources */,
 				A99FB4F1197ACEB30012A3DB /* func_exponential.inl in Resources */,
+				A9684D0E1981775D00D936C6 /* PlainDisplay.vsh in Resources */,
 				A99FB521197ACEB30012A3DB /* bit.inl in Resources */,
 				A9AFCEC5197D1FDA00E2115F /* sphere.png in Resources */,
 				A99FB531197ACEB30012A3DB /* int_10_10_10_2.inl in Resources */,
 				A99FB525197ACEB30012A3DB /* compatibility.inl in Resources */,
 				A99FB535197ACEB30012A3DB /* log_base.inl in Resources */,
+				A9684D101981775D00D936C6 /* simpleTexture.vsh in Resources */,
 				A99FB53E197ACEB30012A3DB /* normal.inl in Resources */,
-				A99FB4D7197ACEB30012A3DB /* Toon.fsh in Resources */,
 				A9B3DE98197EB892002B7958 /* jeep_army.png in Resources */,
 				A99FB50D197ACEB30012A3DB /* type_mat4x4.inl in Resources */,
 				A99FB52A197ACEB30012A3DB /* extented_min_max.inl in Resources */,
@@ -1266,9 +1270,9 @@
 				A99FB53C197ACEB30012A3DB /* multiple.inl in Resources */,
 				A99FB510197ACEB30012A3DB /* type_vec2.inl in Resources */,
 				A99FB504197ACEB30012A3DB /* type_mat.inl in Resources */,
-				A99FB4CF197ACEB30012A3DB /* base.vsh in Resources */,
 				A99FB55E197ACEB30012A3DB /* README.md in Resources */,
 				A99FB543197ACEB30012A3DB /* perpendicular.inl in Resources */,
+				A9684D0C1981775D00D936C6 /* newsh.vsh in Resources */,
 				A99FB51D197ACEB30012A3DB /* type_precision.inl in Resources */,
 				A99FB537197ACEB30012A3DB /* matrix_interpolation.inl in Resources */,
 				A99FB502197ACEB30012A3DB /* type_gentype.inl in Resources */,
@@ -1279,6 +1283,8 @@
 				A99FB544197ACEB30012A3DB /* polar_coordinates.inl in Resources */,
 				A99FB50A197ACEB30012A3DB /* type_mat3x4.inl in Resources */,
 				A99FB513197ACEB30012A3DB /* constants.inl in Resources */,
+				A9684D0F1981775D00D936C6 /* simpleTexture.fsh in Resources */,
+				A9684D0D1981775D00D936C6 /* PlainDisplay.fsh in Resources */,
 				A99FB549197ACEB30012A3DB /* rotate_vector.inl in Resources */,
 				A9AFCEBF197D1FDA00E2115F /* cone.png in Resources */,
 				A99FB523197ACEB30012A3DB /* color_space.inl in Resources */,
@@ -1300,20 +1306,19 @@
 				A99FB522197ACEB30012A3DB /* closest_point.inl in Resources */,
 				A99FB556197ACEB30012A3DB /* vector_query.inl in Resources */,
 				A99FB509197ACEB30012A3DB /* type_mat3x3.inl in Resources */,
-				A99FB4D8197ACEB30012A3DB /* Toon.vsh in Resources */,
 				A9AFCEC2197D1FDA00E2115F /* polyCube.png in Resources */,
 				A99FB4FE197ACEB30012A3DB /* intrinsic_matrix.inl in Resources */,
 				A99FB515197ACEB30012A3DB /* matrix_access.inl in Resources */,
-				A99FB4D5197ACEB30012A3DB /* simpleTexture.fsh in Resources */,
-				A99FB4D6197ACEB30012A3DB /* simpleTexture.vsh in Resources */,
+				A93ACBB9198152D2005D8198 /* spider.obj in Resources */,
 				A99FB548197ACEB30012A3DB /* rotate_normalized_axis.inl in Resources */,
+				A9684D081981775D00D936C6 /* base.vsh in Resources */,
 				A99FB550197ACEB30012A3DB /* string_cast.inl in Resources */,
+				A9684D071981775D00D936C6 /* base.fsh in Resources */,
 				A99FB511197ACEB30012A3DB /* type_vec3.inl in Resources */,
 				A99FB54D197ACEB30012A3DB /* simd_vec4.inl in Resources */,
 				A99FB500197ACEB30012A3DB /* intrinsic_vector_relational.inl in Resources */,
 				A99FB4F2197ACEB30012A3DB /* func_geometric.inl in Resources */,
 				A99FB51A197ACEB30012A3DB /* quaternion.inl in Resources */,
-				A99FB4D1197ACEB30012A3DB /* cubeshader.vsh in Resources */,
 				A9B3DEA4197EBB2A002B7958 /* house_diffuse.png in Resources */,
 				A99FB507197ACEB30012A3DB /* type_mat2x4.inl in Resources */,
 				A99FB50B197ACEB30012A3DB /* type_mat4x2.inl in Resources */,
@@ -1344,6 +1349,7 @@
 				A99FB528197ACEB30012A3DB /* euler_angles.inl in Resources */,
 				A9B3DE9C197EB944002B7958 /* bricks.png in Resources */,
 				A99FB506197ACEB30012A3DB /* type_mat2x3.inl in Resources */,
+				A9684D0A1981775D00D936C6 /* cubeshader.vsh in Resources */,
 				A9AFCECC197D1FDA00E2115F /* sphere.obj in Resources */,
 				A99FB532197ACEB30012A3DB /* integer.inl in Resources */,
 				A99FB54F197ACEB30012A3DB /* std_based_type.inl in Resources */,
@@ -1357,10 +1363,11 @@
 				A99FB516197ACEB30012A3DB /* matrix_inverse.inl in Resources */,
 				A9AFCEC9197D1FDA00E2115F /* cube.obj in Resources */,
 				A9AFCEC7197D1FDA00E2115F /* cilinder.obj in Resources */,
+				A9684D121981775D00D936C6 /* Toon.vsh in Resources */,
 				A99FB514197ACEB30012A3DB /* epsilon.inl in Resources */,
 				A9AFCEBE197D1FDA00E2115F /* cilinder.png in Resources */,
-				A99FB4D2197ACEB30012A3DB /* PlainDisplay.fsh in Resources */,
 				A99FB53A197ACEB30012A3DB /* matrix_query.inl in Resources */,
+				A9684D0B1981775D00D936C6 /* newsh.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1373,14 +1380,11 @@
 			files = (
 				A9C2F07C18FE959C004D7F68 /* Main_iPhone_Storyboard.storyboard in Sources */,
 				A99FB4CD197ACEB30012A3DB /* Test01.cpp in Sources */,
-				A99FB560197ACEB30012A3DB /* FilePath.cpp in Sources */,
 				A99FB559197ACEB30012A3DB /* image_DXT.c in Sources */,
 				A99FB561197ACEB30012A3DB /* FileWrapper.mm in Sources */,
-				A99FB4D4197ACEB30012A3DB /* Shader_Wrapper.cpp in Sources */,
 				A99FB36C197ACEA10012A3DB /* GLView.mm in Sources */,
 				A99FB4CC197ACEB30012A3DB /* tiny_obj_loader.cc in Sources */,
 				A99FB55A197ACEB30012A3DB /* image_helper.c in Sources */,
-				A99FB55F197ACEB30012A3DB /* FileParser.cpp in Sources */,
 				A99FB55D197ACEB30012A3DB /* stb_image_write.c in Sources */,
 				A9C66DCE18C6823B0073913B /* AppDelegate.m in Sources */,
 				A99FB558197ACEB30012A3DB /* etc1_utils.c in Sources */,
